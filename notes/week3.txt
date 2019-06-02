@@ -1,0 +1,9 @@
+Chapter 3
+Slides link:
+
+----------------------
+Linking Pages
+----------------------
+<a href=""></a>
+Each page has its own .html page
+Should we have each page its own .css and .js page as well?
