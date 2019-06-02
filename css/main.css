@@ -6,6 +6,14 @@
 body {
   font-family: "Roboto", "Arial";
   background-color: #e8e8e8;
+  margin: 0;
+}
+
+#body-container {
+  width: 720px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -14,4 +22,11 @@ h1 {
 
 p {
   color: #c80000
+}
+
+#header {
+  padding: 30px 0;
+  background-color: #888888;
+  text-align: center;
+  color: white;
 }

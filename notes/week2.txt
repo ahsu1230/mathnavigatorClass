@@ -1,0 +1,60 @@
+Chapter 2
+Slides link:
+
+----------------------
+First Attributes
+----------------------
+<div>
+<span>
+
+CSS:
+selectors (ids vs. classes)
+display: inline, inline-block, block, none
+width: 100px vs. 100%
+height: 100px vs. 100%
+box-sizing: theory!
+
+JS:
+javascript variables (string, numeric, boolean)
+variable assignment
+variable arithmetic (strings, numbers)
+
+----------------------
+Padding and Margins
+----------------------
+padding-left: 10px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding: 10px 10px 10px 10px;
+padding: 10px;
+padding: 10px 20px;
+
+same with margins...
+margin-left: 10px;
+margin: 10px 20px;
+margin: 0 auto;
+
+----------------------
+Box-sizing theory
+----------------------
+size of content
+border
+padding
+margin
+box-sizing: content-box vs. border-box
+
+Content-box: the actual dimension is what you define with 'width' and 'height', despite 'padding'.
+Border-box: the actual width is 'width' + 'padding'.
+
+----------------------
+Javascript practice
+----------------------
+var a = 1;
+var b = "abc";
+var c = true;
+var d = a;
+
+a = a + 1;
+b = b + "de";
+d = a;
