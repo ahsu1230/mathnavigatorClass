@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: "Roboto", "Arial";
+  background-color: #e8e8e8;
+}
+
+h1 {
+  color: blue
+}
+
+p {
+  color: #c80000
+}
