@@ -1,5 +1,5 @@
 Chapter 2
-Slides link:
+Slides link: https://docs.google.com/presentation/d/1zSIBl92U0X6ODD4Cs_OlnK8lZGU0bWp13uAPYn4Idvw/edit#slide=id.p
 
 ----------------------
 First Attributes
