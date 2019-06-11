@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
 }
 
 body {
@@ -17,11 +17,11 @@ body {
 }
 
 h1 {
-  color: #ff0000; // red
+  color: #ff0000; /* red */
 }
 
 p {
-  color: #c80000; // kind of red
+  color: #c80000; /* kind of red */
 }
 
 .div1 {

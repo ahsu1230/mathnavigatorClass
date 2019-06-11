@@ -1,0 +1,105 @@
+-------------------------------
+Project Outline
+Session 4
+Instagram Header
+-------------------------------
+
+Take a look at www.instagram.com
+Observe the header...
+To the left, there is the logo icon & "Instagram".
+To the right, are several icons a user can click on.
+
+For now, ignore the search bar in the middle.
+Your objective is to re-create the Instagram header from scratch.
+
+In the assets folder, I have attached icon images that are used on the actual Instagram page.
+Create the header with the following specifications:
+
+
+
+//////////////
+// Header
+//////////////
+The header has the following specifications:
+The height of the header is exactly 25px.
+The width of the header is the width of the window.
+(Hint: remember, there are 2 ways to set the width/height of an element.)
+
+There is a padding inside the header of:
+20px top and bottom
+26px left and right
+
+There is a background color of: #FFFFFF (white)
+
+Finally, there is a gray border at the bottom of the header.
+It is 1px thick, and colored #DBDBDB
+You may Google how to do this part! :)
+I only want the bottom border, not the whole thing.
+
+From here, it is recommended to have 2 <div> inside this header element.
+One for the left stuff and one for the right stuff.
+
+
+//////////////
+// Instagram Icon & Logo (Left)
+//////////////
+There are 3 assets to the left side:
+The Instagram camera icon, a vertical line, and the "Instagram" logo.
+
+The camera icon is sized 24px x 24px
+The vertical line is sized: 0.5px x 28px, using color #000000 (hint: use a <div> element to create this line)
+The logo is 103px x 29px
+
+
+
+//////////////
+// Icon Links (Right)
+//////////////
+There are 3 icons: a compass, a heart, and a user
+Each of these link to another page of the website. But for now, you don't need to worry about this.
+
+Each of the icons are sized 24px by 24px.
+
+The icons are spaced 30px away from each other.
+
+
+
+//////////////
+// Rest of the page (content)
+//////////////
+
+We are only doing the header for this project, so the body can be mostly left alone.
+We just need a background color of: #FAFAFA
+
+
+
+//////////////
+// Bonus!!!
+//////////////
+(1) For each of the icons and logo...
+When a user hovers their mouse over the icon,
+the mouse cursor should change to a pointy-hand sign.
+Try it on the real website to see what I mean!
+
+*Hint: For each of the icons, it should only be one additional CSS line!
+
+
+(2) Go on the Instagram website. Try to extract and download the icon images yourself.
+
+*Hint: Instagram does icons in an interesting way.
+Basically you should end up with one large, composite image that contains all the small icons.
+Look for this one large image! It's a .png file.
+When you can download this file, come see me and I'll tell you more and why this happens!
+
+
+(3) Try making the Search bar
+The total dimensions of this bar is 215px by 28px.
+The border is 1px thick with color #DBDBDB.
+The background color is #FAFAFA.
+Inside the search bar there is a padding of 7px.
+
+The "Search" font is color #999999 and font size 14px. The font face/family is Arial.
+The Search icon is sized 10px x 10px and spaced 6 px left of the text.
+When you hover over the search bar, you should get a "text input" cursor.
+
+Observe how the "Search" icon and text are centered in the search bar.
