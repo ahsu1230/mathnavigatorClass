@@ -85,6 +85,7 @@ Order of properties can have the following structure:
   margin: 20px;
   padding: 10px;
   border: 1px solid #333;
+  box-sizing: border-box;
 
   /* Typography */
   font-family: "Arial";
