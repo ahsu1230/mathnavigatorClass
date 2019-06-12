@@ -47,20 +47,21 @@ There are 3 assets to the left side:
 The Instagram camera icon, a vertical line, and the "Instagram" logo.
 
 The camera icon is sized 24px x 24px
-The vertical line is sized: 0.5px x 28px, using color #000000 (hint: use a <div> element to create this line)
+The vertical line is sized: 1px x 28px, using color #000000 (hint: use a <div> element to create this line)
 The logo is 103px x 29px
 
+And the icons are spaced 12px apart.
 
 
 //////////////
 // Icon Links (Right)
 //////////////
-There are 3 icons: a compass, a heart, and a user
+There are 3 icons: a compass, a heart, and a head
 Each of these link to another page of the website. But for now, you don't need to worry about this.
 
 Each of the icons are sized 24px by 24px.
 
-The icons are spaced 30px away from each other.
+The icons are spaced 24px away from each other.
 
 
 

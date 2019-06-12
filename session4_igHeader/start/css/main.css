@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+#header {
+  /* Incorrect values, replace with correct ones */
+  height: 120px;
+  background-color: red;
+}
+
+#body-container {
+  height: 100%;
+  background-color: gray; /* Replace with correct value */
+}
