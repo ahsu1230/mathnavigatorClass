@@ -1,0 +1,32 @@
+---------------------
+Standards Guide
+General
+---------------------
+
+Why is coding standards important?
+1. Easier to read for yourself and for others
+2. Good organization -> Less complexity -> Reduces errors
+https://blog.fossasia.org/why-coding-standards-matter/
+
+
+////////////////////////////////////////////////////////////////////////////////
+With your current text editor, make sure one tab is 4 spaces.
+
+Not 2 spaces. And not the character \t.
+
+
+////////////////////////////////////////////////////////////////////////////////
+Comments are good, but too many makes the file look verbose and messy
+
+Avoid writing paragraphs and essays to describe your work.
+Usually, clear, concise code won't require comments to be understandable.
+
+
+////////////////////////////////////////////////////////////////////////////////
+Line Wrapping
+
+Usually, lines over 80 characters are too long to read.
+Wrap them by using line breaks.
+
+
+////////////////////////////////////////////////////////////////////////////////

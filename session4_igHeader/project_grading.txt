@@ -1,0 +1,81 @@
+-------------------------------
+Project Grading
+Session 4
+Instagram Header
+-------------------------------
+
+Grade based on the following criteria:
+
+------------
+Header
+------------
+
+1___ Height of header is 25px
+
+1___ Background color is #FFFFFF
+
+1___ Bottom border of 1px, #DBDBDB
+
+1___ Padding of 20px 26px
+
+
+
+------------
+Header - Left
+------------
+
+1___ Container <div> element with CSS property "float: left"
+
+1___ Instagram icon sized 24px by 24px
+
+1___ Vertical line 1px thick color #000000
+
+1___ Instagram logo is 103px by 29px
+
+1___ Icons are spaced 12px apart
+
+1___ Icons are lined up neatly (vertically centered)
+
+
+
+------------
+Header - Right
+------------
+
+___1 Container <div> element with CSS property "float: right"
+
+___3 Three icons of size 24px by 24px
+
+___1 Icons are spaced 24px from each other
+
+___1 Icons are lined up neatly (vertically centered)
+
+
+
+------------
+Body
+------------
+
+___1 Body is colored #FAFAFA
+
+
+
+------------
+Coding standards
+------------
+
+___10 Follows coding standards guidelines
+
+
+
+------------
+Bonus
+------------
+
+___1 CSS property "cursor: pointer" over all icons
+
+___2 Able to download Instagram icons
+
+___2 Can student explain why Instagram uses 1 large image sheet as opposed to individual images?
+
+___4 Implements IG Search bar

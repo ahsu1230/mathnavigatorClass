@@ -1,0 +1,106 @@
+---------------------
+Standards Guide
+HTML
+---------------------
+
+Most standards here are taken from:
+https://google.github.io/styleguide/htmlcssguide.html
+
+////////////////////////////////////////////////////////////////////////////////
+Indentation
+
+<div>
+  <ul>
+    <li>Fantastic
+    <li>Great
+  </ul>
+</div>
+
+Children elements should always be indented inside parent element.
+However, if an element has a small, short child element, one line may be used.
+
+<li><a href="...">Fantastic</a></li>
+<li><a href="...">Good</a></li>
+
+Use only lower case for HTML elements and attributes!
+
+<div></div>
+
+NOT <DIV></DIV>
+
+////////////////////////////////////////////////////////////////////////////////
+Recommended specifications:
+ - Specify Document Type
+ - Specify UTF-8 Character Encoding
+
+Include in every HTML file:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+</html>
+
+////////////////////////////////////////////////////////////////////////////////
+Comments
+
+<!-- This is a comment -->
+<!-- TODO: remove when finished -->
+
+<!--
+  Lots of stuff....
+  Lots of stuff....
+-->
+
+////////////////////////////////////////////////////////////////////////////////
+DO NOT include CSS styling in HTML files
+
+<!-- Wrong -->
+<h1><b>My first CSS-only redesign</b></h1>
+
+Instead,
+<h1>My first CSS-only redesign</h1>
+
+With CSS property in separate CSS file.
+h1 {
+  font-weight: bold;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+Quotation Marks
+
+When quoting attributes values, use double quotation marks.
+
+<!-- Not recommended -->
+<a class='maia-button maia-button-secondary'>Sign in</a>
+
+<!-- Recommended -->
+<a class="maia-button maia-button-secondary">Sign in</a>
+
+////////////////////////////////////////////////////////////////////////////////
+Line Wrapping
+
+Break long lines (optional).
+
+Consider wrapping long lines if it significantly improves readability.
+When line-wrapping, each continuation line should be indented at least
+4 additional spaces from the original line.
+
+
+<!-- Not Recommended -->
+<md-progress-circular md-mode="indeterminate" class="md-accent" ng-show="ctrl.loading" md-diameter="35"></md-progress-circular>
+
+
+<!-- Recommended -->
+<md-progress-circular md-mode="indeterminate" class="md-accent"
+    ng-show="ctrl.loading" md-diameter="35">
+</md-progress-circular>
+
+
+<!-- Recommended (preferred) -->
+<md-progress-circular md-mode="indeterminate"
+                      class="md-accent"
+                      ng-show="ctrl.loading"
+                      md-diameter="35">
+</md-progress-circular>

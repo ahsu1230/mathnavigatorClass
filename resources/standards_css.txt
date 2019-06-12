@@ -1,0 +1,112 @@
+---------------------
+Standards Guide
+CSS
+---------------------
+
+Most standards here are taken from:
+https://github.com/xfiveco/css-coding-standards
+
+////////////////////////////////////////////////////////////////////////////////
+All CSS properties must look like the following:
+
+selector {
+  property: value;
+  property: value;
+  property: value;
+}
+
+Have a single tab before the "property".
+"property" is followed by a ":" and a space.
+End every property with a semicolon;
+
+If using multiple selectors...
+selector a {
+  property: value;
+  property: value;
+  property: value;
+}
+
+However, avoid too many selectors like this:
+selector img ul li span a .some-class .another-class .one-more-class {
+  property: value;
+  property: value;
+  property: value;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+Always use hyphens in class names. Do not use underscores or CamelCase notation.
+
+/* Correct */
+.sec-nav
+
+/* Wrong */
+.sec_nav
+.SecNav
+
+////////////////////////////////////////////////////////////////////////////////
+Shorten hexidecimal color values to 3 digits when possible:
+
+background: #fff;
+
+
+////////////////////////////////////////////////////////////////////////////////
+If you use 0 as a value, do not add a unit (px, em, etc.) after it.
+
+/* Correct */
+.nav a {
+  padding: 5px 0 5px 2px;
+}
+
+/* Wrong */
+.nav a {
+  padding: 5px 0px 5px 2px;
+}
+Do not use default values if they are not necessary to override inherited values.
+
+////////////////////////////////////////////////////////////////////////////////
+Order of properties can have the following structure:
+1. box model
+2. typography
+3. graphics & coloring
+
+/* Example */
+.nav {
+  /* Display property first (if not default) */
+  display: inline-block;
+
+  /* Positioning */
+  position: relative;
+  top: 4px;
+  left: 6px;
+
+  /* Box Model */
+  width: 100%;
+  height: 25px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #333;
+
+  /* Typography */
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: bold;
+  color: #dbdbdb;
+
+  /* Other Graphics */
+  background-color: #aaa;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+Comments
+
+Single-line comments with upper case for the first letter.
+/* Correct */
+
+Multi-line comments with a maximum of 80 characters per line.
+/*
+  Large section for the comments.
+  Type a lot of stuff here if you have a lot to say, but honestly nobody will
+  read it anyway.
+*/
