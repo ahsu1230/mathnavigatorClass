@@ -23,18 +23,3 @@ h1 {
 p {
   color: #c80000; /* kind of red */
 }
-
-.div1 {
-  width: 200px;
-  height: 60px;
-  background-color: green;
-}
-
-.div2 {
-  width: 90%;
-  background-color: orange;
-}
-
-span {
-  background-color: cyan;
-}
