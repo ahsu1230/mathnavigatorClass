@@ -18,20 +18,6 @@ body {
   background-color: #ffffff;
 }
 
-.img-netflix {
-  display: block;
-  width: 200px;
-  margin-bottom: 20px;
-}
-
-.img-twitch {
-  display: block;
-  width: 200px;
-  margin-bottom: 20px;
-}
-
-.img-youtube {
-  display: block;
-  width: 200px;
-  margin-bottom: 20px;
+h1 {
+  color: blue;
 }
