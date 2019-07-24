@@ -4,7 +4,6 @@
 }
 
 body {
-  font-family: "Roboto", "Arial";
   background-color: #e8e8e8;
   margin: 0;
 }
@@ -17,9 +16,13 @@ body {
 }
 
 h1 {
+  font-family: 'Lora', serif;
+  font-size: 24px;
   color: #ff0000; /* red */
 }
 
 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
   color: #c80000; /* kind of red */
 }
