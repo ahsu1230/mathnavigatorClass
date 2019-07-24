@@ -1,18 +1,12 @@
-@font-face {
-    font-family: "Roboto";
-    src: url('../fonts/Roboto/Roboto-Regular.ttf');
-}
-
 body {
-  font-family: "Roboto", "Arial";
   background-color: #e8e8e8;
   margin: 0;
 }
 
 #header {
   padding: 30px 0;
-  color: blue;
-  background-color: #888888;
+  color: black;
+  background-color: orange;
   text-align: center;
 }
 
@@ -22,10 +16,6 @@ body {
   padding: 60px;
   box-sizing: border-box;
   background-color: #ffffff;
-}
-
-p {
-  color: #c80000; /* kind of red */
 }
 
 /* TIY 1 */
@@ -47,7 +37,10 @@ h1 {
   color: blue;
 }
 
-/* TIY 2 */
+/* TIY 2
+ * These boxes don't need box-sizing: content-box because
+*  it is the already the default value.
+ */
 .obj1 {
   width: 60px;
   height: 60px;
@@ -73,17 +66,4 @@ h1 {
 
 .border-boxed {
   box-sizing: border-box;
-}
-
-/* TIY 3 */
-.obj-div {
-  height: 40px;
-  margin: 20px 0;
-  background-color: cyan;
-
-}
-
-span {
-  padding: 10px 20px;
-  border: 1px solid magenta;
 }
