@@ -21,3 +21,8 @@ body {
 h1 {
   color: blue;
 }
+
+a {
+  color: orange;
+  text-decoration: none;
+}
