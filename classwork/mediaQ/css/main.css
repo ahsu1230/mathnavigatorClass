@@ -1,3 +1,34 @@
 body {
   margin: 0;
 }
+
+.div-test {
+  background-color: red;
+  border: 1px solid blue;
+}
+
+span {
+  background-color: yellow;
+  border: 1px solid purple;
+}
+
+.cardA {
+  display: inline-block;
+  width: 200px;
+  height: 160px;
+  padding: 20px 0;
+  margin: 40px;
+  background-color: purple;
+  color: white;
+  text-align: left;
+}
+
+@media screen and (max-width: 400px) {
+  .cardA {
+    display: block;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+    color: black;
+  }
+}
