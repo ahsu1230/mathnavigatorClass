@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+/* Testing divs and spans */
 .div-test {
   background-color: red;
   border: 1px solid blue;
@@ -12,6 +13,44 @@ span {
   border: 1px solid purple;
 }
 
+/* Testing display: inline-block */
+#section-display {
+  margin: 80px 0;
+}
+
+.display-container {
+  margin-bottom: 40px;
+}
+
+img {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+}
+
+p {
+  display: inline-block;
+  width: calc(100% - 404px);
+  margin: 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  p {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+/* Testing media queries */
 .cardA {
   display: inline-block;
   width: 200px;
@@ -23,7 +62,7 @@ span {
   text-align: left;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .cardA {
     display: block;
     width: 100%;
