@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	background-color: white;
+	font-family: 'Helvetica';
+}
+
+#yelp-list {
+	display: block;
+	width: 640px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#yelp-list li {
+	list-style: none;
+}
+
+.yelp-item {
+	position: relative;
+	width: 100%;
+	padding: 18px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.item-img {
+	display: inline-block;
+	width: 210px;
+	height: 210px;
+	margin-right: 18px;
+	border-radius: 4px;
+}
+
+.item-right {
+	display: inline-block;
+	width: calc(100% - 232px);
+	vertical-align: top;
+}
+
+.upper-left {
+	display: inline-block;
+}
+
+.upper-left h3 {
+	margin: 0;
+	line-height: 1.3em;
+	font-size: 16px;
+}
+
+.upper-left b {
+	color: #0073bb;
+}
+
+.upper-left img {
+	width: 102px;
+	margin: 5px 6px 5px 0;
+	vertical-align: middle;
+}
+
+.upper-left span {
+	font-size: 14px;
+	color: #666;
+}
+
+.upper-left .subtitles {
+	font-size: 14px;
+	color: #666;
+}
+
+.upper-right {
+	float: right;
+	line-height: 22px;
+	font-size: 14px;
+	text-align: right;
+}
+
+p {
+	font-size: 14px;
+	color: #333;
+}
+

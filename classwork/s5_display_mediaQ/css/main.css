@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+/* Testing divs and spans */
+.div-test {
+  background-color: red;
+  border: 1px solid blue;
+}
+
+span {
+  background-color: yellow;
+  border: 1px solid purple;
+}
+
+/* Testing display: inline-block */
+#section-display {
+  margin: 80px 0;
+}
+
+.display-container {
+  margin-bottom: 40px;
+}
+
+img {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+}
+
+p {
+  display: inline-block;
+  width: calc(100% - 404px);
+  margin: 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  p {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+/* Testing media queries */
+h2 {
+  color: red;
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
+    color: blue;
+  }
+}
+
+.cardA {
+  display: inline-block;
+  width: 200px;
+  height: 160px;
+  padding: 20px 0;
+  margin: 40px;
+  background-color: purple;
+  color: white;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .cardA {
+    display: block;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+    color: black;
+  }
+}

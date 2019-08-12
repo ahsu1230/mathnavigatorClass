@@ -1,0 +1,96 @@
+body {
+	background-color: #ccc;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.profile-card {
+	width: 560px;
+	margin: 120px auto;
+	padding: 48px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 12px;
+}
+
+.img-circle {
+	display: inline-block;
+	position: relative;
+	width: 164px;
+	height: 164px;
+	margin-right: 24px;
+	background-color: #ff6a5c;
+	border-radius: 100%;
+}
+
+.img-mask {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 158px;
+	height: 158px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.img-circle img {
+	width: 160px;
+}
+
+.profile-text {
+	display: inline-block;
+	width: calc(100% - 196px);
+	vertical-align: top;
+}
+
+.profile-text h1 {
+	margin: 0;
+	line-height: 28px;
+	font-size: 20px;
+}
+
+.profile-text h2 {
+	margin: 0;
+	line-height: 20px;
+	font-size: 14px;
+	color: #056571;
+}
+
+.profile-text p {
+	line-height: 20px;
+	font-size: 14px;
+	color: #222;
+}
+
+@media screen and (max-width: 800px) {
+	.profile-card {
+		width: 80%;
+	}
+
+	.img-circle {
+		display: block;
+		margin: 0 auto 24px;
+	}
+
+	.profile-text {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/* Other profile cards */
+
+.scar-jo .img-circle {
+	background-color: purple;
+}
+
+.black-widow .img-circle {
+	background-color: #333;
+}
+
+.black-widow img {
+	position: relative;
+	right: 10px;
+	width: auto;
+	height: 160px;
+}

@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	height: 1200px;
+}
+
+#parent {
+	position: relative;
+	width: 240px;
+	height: 240px;
+	background-color: blue;
+}
+
+.child {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+.child.yellow {
+	top: 0;
+	left: 0;
+	background-color: yellow;
+}
+
+.child.orange {
+	top: 0;
+	right: 0;
+	background-color: orange;
+}
+
+.child.red {
+	bottom: 0;
+	left: 0;
+	background-color: red;
+}
+
+.child.purple {
+	bottom: 0;
+	right: 0;
+	background-color: purple;
+}
+
+
+/* Fixed circle on bottom right */
+
+#fixed {
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: green;
+}
+
+
+/* Captions on images */
+
+.img-container {
+	display: inline-block;
+	position: relative;
+	margin-top: 80px;
+}
+
+.img-container img {
+	width: 300px;
+}
+
+.img-container h1 {
+	display: block;
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	line-height: 60px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-container h1.header1 {
+	top: 0;
+	left: 0;
+}
+
+.img-container h1.header2 {
+	bottom: 4px;
+	left: 0;
+}
