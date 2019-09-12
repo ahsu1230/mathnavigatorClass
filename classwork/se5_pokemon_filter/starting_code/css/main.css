@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica';  
+}
+
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../assets/wallpaper1.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+
+a {
+	display: inline-block;
+	margin-left: 16px;
+	padding: 16px 0;
+	border-bottom: 1px solid transparent;
+	color: #D10C27;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #D10C27;
+}
+
+.search-icon {
+	width: 20px;
+	margin: 0 4px;
+	vertical-align: middle;
+}
+
+ul {
+	width: 480px;
+}
+
+li {
+	padding: 16px;
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+}
+
+li img {
+	margin: 0 16px;
+	vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.popup-container {
+	/* Your code goes here */
+}
+
+.popup-container button {
+	/* Your code goes here */
+}
+
+.popup-container button:hover {
+	/* Your code goes here */
+}
+
+.popup {
+	/* Your code goes here */
+}
+
+.popup.show {
+	/* Your code goes here */
+}

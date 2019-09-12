@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+.sublist {
+	position: relative;
+}
+
+.sublist h2 {
+	line-height: 40px;
+	margin: 0;
+	border-bottom: 1px solid #aaa;
+}
+
+.sublist .arrow {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 18px;
+	height: 12px;
+}
+
+.sublist .arrow.flip {
+	transform: rotate(180deg);
+}
+
+.sublist ul {
+	height: 0px;
+	margin: 0;
+	overflow: hidden;
+	background-color: #eee;
+	transition: 0.2s linear height;
+}
+
+.sublist ul.show {
+	height: 520px;
+}
+
+.sublist:hover {
+	cursor: pointer;
+}
+
+li {
+	margin-bottom: 26px;
+	list-style: none;
+}
+
+li img {
+	height: 100px;
+	margin-right: 26px;
+	vertical-align: middle;
+}

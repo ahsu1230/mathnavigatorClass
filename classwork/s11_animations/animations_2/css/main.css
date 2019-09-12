@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+
+.popup-container {
+	position: fixed;
+	bottom: 16px;
+	left: 16px;
+}
+
+.popup-container button {
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	border-radius: 100%;
+	color: white;
+	background-color: #056571;
+	outline: none;
+	cursor: pointer;
+}
+
+.popup-container button:hover {
+	filter: brightness(1.5);
+	transform: scale(1.05);
+}
+
+.popup {
+	position: fixed;
+	bottom: 60px;
+	left: 60px;
+	width: 180px;
+	height: 120px;
+	background-color: #7852BA;
+	color: white;
+	opacity: 0.0;
+	visibility: hidden;
+	transition: 0.1s linear all;
+}
+
+.popup.show {
+	width: 240px;
+	height: 180px;
+	opacity: 1.0;
+	visibility: visible;
+}
+
+.popup.pulse {
+	bottom: 90px;
+	left: 100px;
+}
+
+.popup.loading {
+	bottom: 280px;
+	left: 100px;
+}
+
+.popup h3 {
+	display: none;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+
+
+/* Animation 2a - pulser */
+.dots {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.dot {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin: 0 8px;
+	border-radius: 100%;
+	background-color: black;
+	animation-name: pulse;
+	animation-duration: 1500ms;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+}
+
+.dot.dot1 {
+	animation-delay: 0ms;
+}
+
+.dot.dot2 {
+	animation-delay: 100ms;
+}
+
+.dot.dot3 {
+	animation-delay: 200ms;
+}
+
+@keyframes pulse {
+	0% { 
+		opacity: 1.0; 
+	}
+	100% { 
+		opacity: 0.0; 
+	}
+}
+
+
+/* Animation 2b - loading bar */
+.loading-bar {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	height: 16px;
+	background-color: gray;
+}
+
+.loading-bar .progress {
+	height: 100%;
+	width: 0;
+	background-color: green;
+}

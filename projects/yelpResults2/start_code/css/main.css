@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	background-color: white;
+	font-family: 'Helvetica';
+}
+
+#yelp-list {
+	display: block;
+	width: 640px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#yelp-list li {
+	list-style: none;
+}
+
+.yelp-item {
+}
+
